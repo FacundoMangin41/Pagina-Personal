@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+  <!-- Swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <!-- pagina de google fonts  https://fonts.google.com/specimen/Lobster/tester-->
+
+  <script src="https://kit.fontawesome.com/092fed5d7c.js" crossorigin="anonymous"></script>
+
+  <!-- scrollreveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  
+  <!-- letra Rubik -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+  <!-- letra Style  font-family: 'Lilita One'  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="sass/main.css">
+  <link rel="stylesheet" href="sass/header.css">
+  <link rel="stylesheet" href="sass/navegador.css">
+  <link rel="stylesheet" href="sass/diferencia-resina-filamento.css">
+  <link rel="stylesheet" href="sass/carrusel.css">
+  <link rel="stylesheet" href="sass/footer.css">
+  <link rel="stylesheet" href="sass/dark-mode.css">
+
+  <link rel="shortcut icon" href="imagenes/logo_principal.png" type="image/x-icon">
+      
+  <title>Commander 3D</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <div class="container">
+      <div class="titulo-logo">
+        <a id="nav-titulo" class="text-white text-commander">Commander 3D</a>
+      </div>
+      <div class="d-flex justify-content-end">
+        <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0"> 
+              <li class="nav-item">
+                <a class="nav-link" href="#diferencia-resina-filamento">Servicios</a>
+              </li>           
+              <li class="nav-item">
+                <a class="nav-link" href="#carrusel">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer">Información</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lenguaje
+                </a>
+                <ul class="langs dropdown-menu">
+                  <li><a href="#" language="espanol" class="active"><img src="imagenes/espana.png" alt=""> Español</a></li>
+                  <li><a href="#" language="english"><img src="imagenes/estados-unidos.png" alt=""> English</a></li>
+                </ul>
+              </li> -->
+          </ul>
+          <button class="switch" id="switch">
+            <span><i class="fa-solid fa-sun"></i></span>
+            <span><i class="fa-solid fa-moon"></i></span>
+          </button>    
+        </div>
+    </div>
+  </nav>
+
+  <header>   
+      <section class="textos-header">
+          <h1 id="header-titulo">Commander 3D</h1>
+          <h2 class="header-subtitulo" >Impresiones en Resina y Filamento</h2>
+      </section>
+      <section class="titulo-logo-celular">
+        <h1>3D</h1>
+        <h2>Commander</h2>
+        <h3 class="header-subtitulo">"Impresiones en Resina y Filamento"</h3>
+      </section> 
+  </header>
+
+
+  <section class="contenedor sobre-nosotros" id="diferencia-resina-filamento">
+      
+    <h2 class="titulo-diferencia">Diferencia entre "Resina" y "Filamento"</h2>      <!--titulo -->
+
+      <div class="contenedor-sobre-nosotros">     <!-- solo divide -->
+          <img src="imagenes/3Dprinter.png" alt="" class="imagen-about-us">  <!-- Imagen Artillery -->
+          <div class="contenidos-textos">
+              <img src="imagenes/resina.png" alt="" class="imagen-resina">
+              <h3><span class="circulo-violeta">1</span>Resina</h3>
+              <ul>
+                <li>➤ Proporciona una resolución mayor que otras impresoras.</li>
+                <li>➤ Es ideal para piezas más pequeñas con detalles.</li>
+                <li>➤ También es muy buena para objetos sólidos y rellenos, de carácter macizo.</li>
+              </ul>
+              <img src="imagenes/Filamento.png" alt="" class="imagen-impresora-filamento">  <!-- Imagen Artillery -->
+              <h3><span class="circulo-violeta">2</span>Filamento</h3>
+              <ul>
+                <li>➤ Las impresoras 3D de filamento trabajan dividiendo los objetos en capas que después son apiladas una encima de otra hasta reconstruir el modelo digital.</li>
+                <li>➤ Estas impresiones pierdan calidad a diferencia de la resina.</li>
+                <li>➤ Se recomiendan para impresiones de un tamaño mayor.</li>
+              </ul>
+          </div>
+      </div>         
+  </section>  
+
+
+  <section id="carrusel">
+    <div class="contenedor">
+      <div class="container">
+        <h3 class="centrar_texto section-subtitulo">- Productos Populares -</h3>
+        <h1 class="centrar_texto section-titulo">Impresiones 3D</h1>
+      </div>
+      <div class="container">
+        <div class="swiper tranding-slider">
+          <div class="swiper-wrapper">
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/goku/goku-cults.png" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Goku
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/vegeta/VegetaNoGokui.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Vegeta no Gokui
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/Freezer/freezer.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Freezer
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/cell/cell-1.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Cell
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/goku/diorama.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Goku vs Cooler
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/vegeta/vegeta-capsula.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Nave de Vegeta
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+            <!-- Inicio-tarjeta -->
+            <div class="swiper-slide tranding-slide">
+              <div class="tranding-slide-img">
+                <img src="./imagenes/galeria/Dragon-Ball/Freezer/diorama.jpg" alt="Tranding">
+              </div>
+              <div class="tranding-slide-content">
+                <h1 class="precio-tarjeta">$100</h1>
+                <div class="tranding-slide-content-bottom">
+                  <h2 class="nombre-imagen">
+                    Freezer Diorama
+                  </h2>
+                  <h3 class="numero-estrellas">
+                    <span>4.5</span>
+                    <div class="icono-estrellas">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <!-- final-tarjeta-->
+          </div>
+
+          <div class="tranding-slider-control">
+            <div class="swiper-button-prev slider-arrow">
+              <ion-icon name="arrow-back-outline"></ion-icon>
+            </div>
+            <div class="swiper-button-next slider-arrow">
+              <ion-icon name="arrow-forward-outline"></ion-icon>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        </div>
+      </div>
+      <div class="boton">
+        <a href="./galeria-impresion/galeria.html"> Mas Productos</a>
+      </div>
+    </div>
+  </section>
+
+
+  <footer id='footer'>
+    <div class="contenedor contenedor-footer">
+      <div class="footer-logo">
+          <h1>INFORMACIÓN </h1>
+          <ul>
+            <li>● Todos los pedidos son por encargue.</li>
+            <li>● Se realizará una entrega 
+              del 50% del dinero por 
+              adelantado, el día del retiro se 
+              deberá entregar el 50% restante.</li>
+            <li>● El comprador antes de hacer el encargo deberá especificar al vendedor el tamaño que quiera de la figura</li>
+            <li>● Puede elegir si quiere la figura pintada o si decide pintarla de manera particular</li>
+          </ul>
+      </div>
+      
+      <div class="contenedor-redes-sociales">
+        
+        <article id="tarjeta-facundo">
+          <div class="red-social" >
+            <img src="./imagenes/avatar-iconn.jpg" alt="icono">
+            <div>
+                <h2>Resina</h2>
+                <p>Facundo Mangin</p>
+            </div>
+            <div class="red-social-logo">
+              <a href="https://www.facebook.com/facundo.mangin/" class= "fa fa-facebook" target="_blank" id="facebook-color"></a>
+              <a href="https://www.instagram.com/facumangin/" class= "fa fa-instagram" target="_blank" id="instagram-color"></a>
+              <a href="https://api.whatsapp.com/send?phone=543329305304" class= "fa fa-whatsapp" target="_blank" id="whatsapp-color"></a>
+              <a href="mailto:facundo_mangin@hotmail.com" class= "fa-regular fa-envelope" target="_blank" id="mail-color"></a>
+            </div>
+          </div>
+        </article>
+
+        <article id="tarjeta-ivo">
+          <div class="red-social">
+            <img src="./imagenes/avatar-iconn.jpg" alt="icono">
+              <div>
+                  <h2>Filamento</h2>
+                  <p>Ivo Formica</p>
+              </div>
+              <div class="red-social-logo">
+                <a href="#" class= "fa fa-facebook" id="facebook-color"></a>
+                <a href="#" class= "fa fa-instagram instagram" id="instagram-color"></a>
+                <a href="#" class= "fa fa-whatsapp" id="whatsapp-color"></a>
+                <a href="#" class= "fa-regular fa-envelope" id="mail-color"></a>
+              </div>
+          </div>
+        </article> 
+      </div>
+    </div>       
+  
+
+    <div class="developer">
+      <h3>Programador: Facundo Mangin</h3>
+    </div>
+  </footer>
+
+  
+  <div class="derechos-de-autor">
+      <p>© Copyright | 2023 | Todos los derechos reservados</p>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script src="./js/carrusel.js"></script>
+    <script src="./js/scroll-reveal.js"></script>
+    <script src="js/nav.js"></script>
+    <script src="js/modo-oscuro.js"></script>
+    <script src="js/lenguaje/lenguaje.js"></script>
+    
+  </body>
+</html>

@@ -1,0 +1,104 @@
+/*---------------------------------------------------------------------------------------- */
+/*-------------------------- Variables --------------------------------- */
+/*---------------------------------------------------------------------------------------- */
+
+    $color-titulo: rgb(197, 197, 197);
+  
+
+/*-----------------------------------------------------------------------------------------*/
+/*-------------------------- IMAGEN PRESENTACION Y LETRAS --------------------------------- */
+/*-----------------------------------------------------------------------------------------*/
+
+
+header{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #000000e1, #000000e1), url(../imagenes/fondo-header.jpg) ;
+    background-size: 100% 100%;
+
+    .textos-header{
+        flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/
+        color: $color-titulo;
+        font-family: 'Lilita One';
+        text-shadow: 5px 5px 15px rgb(121, 19, 124);
+
+        h1{  /*texto 1 Tamaño*/
+            font-size: clamp(6rem, 12rem, 9vw); 
+            margin: 0 0 0 0 !important;
+        }
+
+        h2{  /*texto 2 Tamaño*/
+            font-size: clamp(2rem, 4rem, 4vw);
+        }
+
+    }
+
+    .titulo-logo-celular{
+        display: none;
+    }
+    
+    .logo-presentacion{
+        display: none;
+    }
+}
+    
+
+
+
+
+/*--------------------------------------------------------------
+-----------------------  Respónsive  ---------------------------
+----------------------------------------------------------------*/
+
+
+/* ------------ Celulares chicos ejemplo Galaxy Fold-------------- */
+
+
+
+
+@media screen and (max-width: 500px){
+    header{
+        height: 100vh;
+        background: linear-gradient(to right, #000000e1, #000000e1), url(../imagenes/fondo-header-celular.jpg) ;
+        background-size: 100% 100%;       
+    }
+
+}
+
+
+@media screen and (max-width: 1000px) and (min-height: 500px){
+    header{
+        .textos-header{
+            display: none;
+            
+        }
+
+        .titulo-logo-celular{
+            display: flex;
+            flex-direction: column;  /*para que el texto se escriba uno bajo el otro*/
+            color: $color-titulo;
+            font-family: 'Lilita One';
+            text-shadow: 5px 5px 15px rgb(121, 19, 124);
+
+            h1{  /*texto 1 Tamaño*/
+                font-size: clamp(6rem, 40rem, 70vw);  
+                line-height: 0.8; 
+                margin: 0 0 0 0 !important;
+            }
+
+            h2{  /*texto 2 Tamaño*/
+                font-size: clamp(5rem, 10rem, 15vw);
+            }
+            h3{  /*texto 2 Tamaño*/
+                font-size: clamp(2rem, 3.3rem, 5vw);
+                font-family: "rubik";
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="../imagenes/logo_principal.png" type="image/x-icon">
+    <title>Comander 3D</title>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="../sass/galeria.css">
+    <link rel="stylesheet" href="../sass/lightgallery.css" />
+    <link rel="stylesheet" href="../sass/dark-mode-galeria.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+    <script src="https://kit.fontawesome.com/092fed5d7c.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body class="bg-light container-sm">
+    <nav>
+        <div class="desplegable">
+            <div class="dropdown">
+                <a id="nav-inicio" class="dropdown-item back" style="color: #ffffff" href="../index.html"><i class="fa-solid fa-circle-left"></i></a>
+                <button class="switch" id="switch">
+                    <span><i class="fa-solid fa-sun"></i></span>
+                    <span><i class="fa-solid fa-moon"></i></span>
+               </button> 
+                <button class="btn" style="background: #ffffff;" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    <i class="fa-solid fa-bars fondo" style="font-size: 15px; color: #6b0171;"></i>
+                </button>
+                <ul class="dropdown-menu bg-dark bg-opacity-30">
+                    <li><a id="nav-galeria" class="dropdown-item" style="color: #ffffff" href="../galeria-impresion/galeria.html">Impresiones Realizadas</a></li>
+                    <li><a id="nav-dragon-ball" class="dropdown-item" style="color: #ffffff" href="../galeria-impresion/dragonball.html">Dragon Ball</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <div class="jumbotron text-center">
+             <h1 class="display-4 fw-bold">Juego del Calamar</h1>
+             <p class="lead">Si no encuentras el modelo que buscas puesde contactarte en cualquier momento
+                <br> con nosotros y haremos lo posible para tenerlo a disposicion.
+             </p>
+        </div>
+   </div>
+
+   <div class="container escala">
+        <div id="lightgallery">
+             <a href="../imagenes/galeria/geishin.jpg" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/geishin.jpg" />
+                  </a>
+                  <a href="../imagenes/galeria/Vegeta-noGokui.jpg" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/Vegeta-noGokui.jpg" />
+                  </a>
+                  <a href="../imagenes/galeria/ironman.jpg" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/ironman.jpg"/>
+                  </a>
+                  <a href="../imagenes/galeria/goku.jpg" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/goku.jpg" />
+                  </a>
+                  <a href="../imagenes/galeria/juego.png" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/juego.png"/>
+                  </a>
+                  <a href="../imagenes/galeria/mate-DeadPool.png" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/mate-DeadPool.png" />
+                  </a>
+                  <a href="../imagenes/galeria/spiderman.png" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/spiderman.png"/>
+                  </a>
+                  <a href="../imagenes/galeria/pokeball.png" data-sub-html="<h3>Geishin Impact</h3>$45.000">
+                  <img src="../imagenes/galeria/pokeball.png"/>
+                  </a>
+
+        </div>
+   </div>
+
+  <script src="../js/lightgallery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lightgallery.js/master/dist/js/lightgallery.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-pager.js/master/dist/lg-pager.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-autoplay.js/master/dist/lg-autoplay.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-fullscreen.js/master/dist/lg-fullscreen.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-zoom.js/master/dist/lg-zoom.js"></script>
+    <script src="https://cdn.rawgit.com/sachinchoolur/lg-hash.js/master/dist/lg-hash.js"></script>
+    <script src="../demo/js/lg-rotate.js"></script>
+
+    <script type="text/javascript">
+        lightGallery(document.getElementById('lightgallery')); 
+    </script>
+    
+    <script src="../js/modo-oscuro-galeria.js"></script>
+
+</body>
+
+</html>
